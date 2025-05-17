@@ -30,7 +30,8 @@ CREATE TABLE Productos (
     ID_Producto SERIAL PRIMARY KEY,
     Nombre VARCHAR(100),
     Uni_medida VARCHAR(10),
-    Precio_Venta DECIMAL(10, 2)
+    Precio_Venta DECIMAL(10, 2),
+    Stock INT NOT NULL
 );
 
 -- Crear la tabla Detalle_Ventas
